@@ -1,4 +1,4 @@
-#!/bin/bash-
+#!/bin/bash
 
 # --------------------------------------------------------
 # Installs RetroFE and SDL2 from source on the Raspberry Pi 2 (Raspbian)

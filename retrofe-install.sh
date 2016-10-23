@@ -143,7 +143,7 @@ cd retrofe
 #Move RetroFE Folder
 
   cp -r ~/retrofe/Artifacts/linux/RetroFE  ~/
-
+  rm-rf ~/retrofe
 #Install RetroPie
 
 #Install Dependancies

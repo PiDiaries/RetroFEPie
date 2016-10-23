@@ -54,7 +54,8 @@ START_TIME=$SECONDS
 
 # Install basic dependencies not needed for compiling SDL2
 echo -e "\n\n${green}Installing Round 1 Dependencies...${NC}"
-sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make
+sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make libtiff5-dev
+
 
 # *********************************************************************
   if [[ $sdlans = "y" ]]; then
@@ -92,8 +93,8 @@ sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make
   }
 
   echo -e "\n\n${green}Installing Round 2 Dependencies...${NC}"
-  sudo apt-get install -y libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libsdl2* automake build-essential libasound2-dev libdbus-1-dev libfreeimage-dev libfreetype6-dev libjpeg8-dev libmpeg3-dev libopenal-dev libpango1.0-dev libsndfile-dev libtiff4-dev libudev-dev libvorbis-dev libwebp-dev
-  echo -e "\n\n${green}Beginning SDL2 Core build...${NC}"
+  sudo apt-get install -y libglib2.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libsdl2* automake libasound2-dev libdbus-1-dev libfreeimage-dev libfreetype6-dev libjpeg8-dev libmpeg3-dev libopenal-dev libpango1.0-dev libsndfile-dev libtiff4-dev libudev-dev libvorbis-dev libwebp-dev
+   echo -e "\n\n${green}Beginning SDL2 Core build...${NC}"
 # get ${sdl_url} ${sdl} ${sdl_config}
 # Needs to be fixed so its part of the loop
     cd /tmp

@@ -54,7 +54,7 @@ START_TIME=$SECONDS
 
 # Install basic dependencies not needed for compiling SDL2
 echo -e "\n\n${green}Installing Round 1 Dependencies...${NC}"
-sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make libtiff5-dev pkg-config
+sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make libtiff5-dev pkg-config g++ cmake libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-dev gstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good gstreamer1.0-libav zlib1g-dev libglib2.0-0 libglib2.0-dev sqlite3 gstreamer1.0-alsa gstreamer1.0-pulseaudio
 
 
 # *********************************************************************

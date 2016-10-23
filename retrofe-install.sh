@@ -141,7 +141,7 @@ cd retrofe
   echo -e "\n${bold}Finished in $(($ELAPSED_TIME/60/60)) hr, $(($ELAPSED_TIME/60%60)) min, and $(($ELAPSED_TIME%60)) sec${normal}\n"
 #Move RetroFE Folder
 
-  cp ~/retrofe/Artifacts/linux/RetroFE  ~/
+  cp -r ~/retrofe/Artifacts/linux/RetroFE  ~/
 
 #Install RetroPie
 

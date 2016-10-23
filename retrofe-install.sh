@@ -54,7 +54,7 @@ START_TIME=$SECONDS
 
 # Install basic dependencies not needed for compiling SDL2
 echo -e "\n\n${green}Installing Round 1 Dependencies...${NC}"
-sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make libtiff5-dev
+sudo apt-get install -y tortoisehg g++ cmake dos2unix build-essential make libtiff5-dev pkg-config
 
 
 # *********************************************************************

@@ -283,4 +283,5 @@ ln -s ~/RetroPie/roms/zxspectrum ~/RetroFE/collections/zxspectrum/roms
 rmdir ~/RetroFE/collections/Sega\ Genesis/roms
 ln -s ~/RetroPie/roms/megadrive ~/RetroFE/collections/Sega\ Genesis/roms
 
-end
+
+

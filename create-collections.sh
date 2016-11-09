@@ -6,7 +6,7 @@
 ./retrofe -createcollection "AGS"
 ./retrofe -createcollection "Amiga"
 ./retrofe -createcollection "Amstrad CPC"
-./retrofe -createcollection "Apple"
+./retrofe -createcollection "Apple2"
 ./retrofe -createcollection "Arcade"
 ./retrofe -createcollection "Arcadia"
 ./retrofe -createcollection "Atari 800"
@@ -76,7 +76,7 @@ rmdir /home/pi/RetroFE/collections/3DO/roms
 rmdir /home/pi/RetroFE/collections/AGS/roms
 rmdir /home/pi/RetroFE/collections/Amiga/roms
 rmdir /home/pi/RetroFE/collections/Amstrad\ CPC/roms
-rmdir /home/pi/RetroFE/collections/Apple/roms
+rmdir /home/pi/RetroFE/collections/Apple2/roms
 rmdir /home/pi/RetroFE/collections/Arcade/roms
 rmdir /home/pi/RetroFE/collections/Arcadia/roms
 rmdir /home/pi/RetroFE/collections/Atari\ 800/roms
@@ -147,7 +147,7 @@ ln -s /home/pi/RetroPie/roms/3do /home/pi/RetroFE/collections/3DO/roms
 ln -s /home/pi/RetroPie/roms/ags /home/pi/RetroFE/collections/AGS/roms
 ln -s /home/pi/RetroPie/roms/amiga /home/pi/RetroFE/collections/Amiga/roms
 ln -s /home/pi/RetroPie/roms/amstradcpc /home/pi/RetroFE/collections/Amstrad\ CPC/roms
-ln -s /home/pi/RetroPie/roms/apple /home/pi/RetroFE/collections/Apple/roms
+ln -s /home/pi/RetroPie/roms/apple /home/pi/RetroFE/collections/Apple2/roms
 ln -s /home/pi/RetroPie/roms/arcade /home/pi/RetroFE/collections/Arcade/roms
 ln -s /home/pi/RetroPie/roms/arcadia /home/pi/RetroFE/collections/Arcadia/roms
 ln -s /home/pi/RetroPie/roms/atari800 /home/pi/RetroFE/collections/Atari\ 800/roms

@@ -52,6 +52,7 @@
 ./retrofe -createcollection "PSP"
 ./retrofe -createcollection "PSX"
 ./retrofe -createcollection "ResidualVM"
+./retrofe -createcollection "RetroPie"
 ./retrofe -createcollection "Sam Coupe"
 ./retrofe -createcollection "ScummVM"
 ./retrofe -createcollection "Sega 32X"
@@ -140,6 +141,7 @@ rmdir /home/pi/RetroFE/collections/X68000/roms
 rmdir /home/pi/RetroFE/collections/Zmachine/roms
 rmdir /home/pi/RetroFE/collections/ZX\ Spectrum/roms
 rm -rf /home/pi/RetroFE/collections/Sega\ Genesis/roms
+rmdir /home/pi/RetroFE/collections/RetroPie/roms
 
 sleep 30
 
@@ -211,3 +213,4 @@ ln -s /home/pi/RetroPie/roms/wonderswancolor /home/pi/RetroFE/collections/Wonder
 ln -s /home/pi/RetroPie/roms/x68000 /home/pi/RetroFE/collections/X68000/roms
 ln -s /home/pi/RetroPie/roms/zmachine /home/pi/RetroFE/collections/Zmachine/roms
 ln -s /home/pi/RetroPie/roms/zxspectrum /home/pi/RetroFE/collections/ZX\ Spectrum/roms
+ln -s /home/pi/RetroPie/retropiemenu /home/pi/RetroFE/collections/RetroPie/roms
